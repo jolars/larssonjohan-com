@@ -2,7 +2,7 @@
 lang: en
 title: CV
 author: Johan Larsson
-date: '`r format(Sys.Date(), "%B %d, %Y")`'
+date: '`r Sys.Date()`'
 bibliography: cv.bib
 csl: vancouver-full.csl
 output: pdf_document
