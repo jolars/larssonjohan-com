@@ -1,0 +1,43 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "Johan Larsson"
+theme = "hugo-lithium"
+googleAnalytics = "UA-85513662-1"
+disqusShortname = "larssonjohan-com"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+baseUrl = "http://larssonjohan.com"
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+
+[[menu.main]]
+    name = "CV"
+    url = "/cv/"
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+[[menu.main]]
+    name = "GitHub"
+    url = "https://github.com/rstudio/blogdown"
+[[menu.main]]
+    name = "Twitter"
+    url = "https://twitter.com/rstudio"
+
+[params]
+    description = "My personal website."
+
+    # options for highlight.js (version, additional languages, and theme)
+    highlightjsVersion = "9.11.0"
+    highlightjsCDN = "//cdn.bootcss.com"
+    highlightjsLang = ["r", "yaml"]
+    highlightjsTheme = "github"
+
+    MathJaxCDN = "//cdn.bootcss.com"
+    MathJaxVersion = "2.7.1"
+
+    [params.logo]
+    url = "bio-photo.jpg"
+    width = 50
+    height = 50
+    alt = "Logo"
+
